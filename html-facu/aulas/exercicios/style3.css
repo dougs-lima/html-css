@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient rgb() 
+}
+.container {
+    background-color: rgb(184, 151, 211);
+    width: 500px;
+    height: auto;
+    padding-inline-start: 5px;
+}
+.flutuante {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3em;
+    background-color: rgb(66, 42, 88);
+    float: left;
+    width: 50%;
+    height: auto;
+    padding-block: 10px;
+    margin-right: 10px;
+}
