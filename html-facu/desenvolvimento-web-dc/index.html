@@ -8,78 +8,71 @@
 </head>
 <body>
     <header>
-        <img class="logoheader" src="img/logo.jpg" alt="Logo Data Center">
-        <h1>Data Center</h1>
-        <h2>Informações e notícias sobre Data Center.
+        <div class="container__header">
+            <div class="container__header__logo">
+                <img class="header__logo" src="img/logo.jpg" alt="Logo Data Center">
+            </div>
+            <div class="container__header__h1-h2">
+                <h1>Data Center</h1>
+                <h2>Informações e notícias sobre Data Center.</h2>
+            </div>
+        </div>
     </header>
+
     <nav>
-        <ul>
-            <li class="menu"><a href="index.html">DATA CENTER</a></li>
-            <li class="menu"><a href="noticias.html">NOTÍCIAS</a></li>
-            <li class="menu"><a href="equipe.html">EQUIPE</a></li>
-        </ul>
+        <div class="nav__menu"><a href="index.html">DATA CENTER</a></div>
+        <div class="nav__menu"><a href="noticias.html">NOTÍCIAS</a></div>
+        <div class="nav__menu"><a href="equipe.html">EQUIPE</a></div>
     </nav>
+
     <div class="container">
-        <aside></aside>
-        <main>
-            <h3 class="Subtitulo">DATA CENTER</h3>
-            <img id="imagem-data-index" src="img/imagem datacenter.jpg" alt="">
-            <p>Os Data Centers são a base da era digital — responsáveis por armazenar, processar e proteger as informações que movem o mundo
+        <h2 class="container__h2__subtitulo">DATA CENTER</h2>
+        <div class="container__img">
+            <img id="imagem__data-center" src="img/imagem-datacenter.jpg" alt="Interior de um data center mostrando racks de servidores">
+        </div>
+        <div class="data-center-content">
+        <p>Os data centers são grandes instalações projetadas para abrigar servidores e sistemas de rede de forma segura e estável. Eles são construídos com salas climatizadas, sistemas de segurança e ambientes redundantes, que previnem falhas. Cada sala contém <strong>racks</strong> — estruturas metálicas que armazenam os servidores de forma organizada.</p>
 
-Os data centers são grandes instalações projetadas para abrigar servidores e sistemas de rede de forma segura e estável.
-Eles são construídos com salas climatizadas, sistemas de segurança e ambientes redundantes (para evitar falhas).
-Cada sala contém racks — estruturas metálicas que armazenam os servidores de forma organizada.
+            <div class="container__topic-section">
+                <h3>Equipamentos de Rede</h3>
+                <p>Para que os servidores se comuniquem entre si e com a internet, são utilizados equipamentos de rede, como:</p>
+                <ul>
+                    <li><strong>Roteadores:</strong> direcionam o tráfego de dados;</li>
+                    <li><strong>Switches:</strong> conectam os servidores em uma mesma rede local;</li>
+                    <li><strong>Firewalls:</strong> protegem contra acessos indevidos e ataques.</li>
+                </ul>
+                <p>Esses dispositivos garantem velocidade, segurança e estabilidade na comunicação.</p>
+            </div>
 
+            <div class="container__topic-section">
+                <h3>Armazenamento</h3>
+                <p>O coração de um data center é o armazenamento de dados. São utilizados:</p>
+                <ul>
+                    <li>Servidores com discos <strong>SSD</strong> ou <strong>HDD</strong>, que armazenam informações com rapidez;</li>
+                    <li>Sistemas <strong>NAS</strong> e <strong>SAN</strong>, que permitem o compartilhamento de armazenamento entre vários servidores;</li>
+                    <li>Backups automáticos e redundância, garantindo que os dados não se percam, mesmo em caso de falha.</li>
+                </ul>
+            </div>
 
-Equipamentos de rede
+            <div class="container__topic-section">
+                <h3>Energia e Refrigeração</h3>
+                <p>Esses locais consomem muita energia e produzem calor intenso. Por isso, utilizam:</p>                    <ul>
+                    <li>Fontes redundantes de energia, como <strong>UPS</strong> e geradores, para evitar que os servidores desliguem;</li>
+                    <li>Sistemas de refrigeração e ar-condicionado de precisão, que mantêm temperatura e umidade ideais;</li>
+                    <li>Sensores inteligentes, que controlam o clima em tempo real.</li>
+                </ul>
+            </div>
 
-Para que todos os servidores se comuniquem entre si e com a internet, são usados equipamentos de rede como:
-
-Roteadores – direcionam o tráfego de dados.
-
-Switches – conectam os servidores em uma mesma rede local.
-
-Firewalls – protegem contra acessos indevidos e ataques.
-
-
-Esses dispositivos garantem velocidade, segurança e estabilidade na comunicação.
-
-
-Armazenamento
-
-O coração de um data center é o armazenamento de dados.
-São usados:
-
-Servidores com discos SSD ou HDD, para guardar informações com rapidez.
-
-Sistemas NAS e SAN, que permitem compartilhar o armazenamento entre vários servidores.
-
-Backups automáticos e redundância, garantindo que nada se perca mesmo em caso de falha.
-
-Energia e refrigeração
-
-Esses locais consomem muita energia e produzem calor intenso.
-Por isso, usam:
-
-Fontes redundantes de energia (UPS, geradores), para que os servidores nunca desliguem.
-
-Sistemas de refrigeração e ar-condicionado de precisão, mantendo temperatura e umidade ideais.
-
-Sensores inteligentes que controlam o clima em tempo real.
-
-Monitoramento
-
-O funcionamento de um data center é constantemente monitorado:
-
-Softwares de gestão acompanham temperatura, uso de CPU, rede e energia.
-
-Alertas automáticos avisam se há falhas ou riscos.
-
-Equipes 24/7 garantem que tudo permaneça online e seguro.</p>
-        </main>
+            <div class="container__topic-section">
+                <h3>Monitoramento</h3>
+                <p>O funcionamento de um data center é monitorado constantemente por:</p>
+                <ul>
+                    <li>Softwares de gestão, que acompanham temperatura, uso de CPU, rede e energia;</li>
+                    <li>Alertas automáticos, que sinalizam falhas ou riscos;</li>
+                    <li>Equipes especializadas disponíveis 24 horas por dia, 7 dias por semana, garantindo que todos os sistemas permaneçam online e seguros.</li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <footer>
-
-    </footer>
 </body>
 </html>

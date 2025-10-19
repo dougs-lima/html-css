@@ -1,0 +1,13 @@
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+.item {
+    background: lightgray;
+    padding: 20px;
+    min-width: 150px;
+}
