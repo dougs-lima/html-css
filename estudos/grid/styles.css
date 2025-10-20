@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: grid;
+    gap: 10px;
+}
+header {
+    background-color: blueviolet;
+    justify-self: center;
+}
+aside {
+    background-color: aqua;
+    grid-row: 4;
+}
+article {
+    background-color: chartreuse;
+}
+section {
+    background-color: blue;
+}
+footer {
+    background-color: brown;
+}

@@ -16,21 +16,19 @@ body {
 header {
     background-color: #f0eafc;
     box-shadow: 0px 0px 10px #daccf7;
-    padding: 1rem;
     border-radius: 5px;
     
 }
 .container__header {
     color: #443466;
-    text-align: center;
-    padding: 2rem 1rem;
     border-radius: 5px;
 }
 .container__header__h1-h2 {
-    margin: 7px;
+    text-align: center;
 }
 .container__header__logo {
-    max-width: 200px;
+    padding: 1px;
+    max-width: 152px;
 }
 .header__logo {
     border-radius: 5px;
