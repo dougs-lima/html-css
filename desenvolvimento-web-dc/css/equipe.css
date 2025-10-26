@@ -1,0 +1,50 @@
+/*/////// PÁGINA EQUIPE ///////*/
+main {
+    padding-top: 2rem;
+}
+main h2 {
+    text-align: center;
+    color: rgb(236, 182, 100);
+}
+#imagem-mestre-kame { /*Imagem Mestre Kame*/
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.team-content {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.grid-content {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 180px 180px 180px;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    gap: 1rem;
+    margin: 0 auto;
+}
+.team {
+    max-width: 180px;
+    height: auto;
+    background-color: rgb(66, 50, 50);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.team img { /*Imagem Equipe*/
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/*/////// RESPONSIVIDADE ///////*/
+@media (max-width: 768px) {
+    .grid-content {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}

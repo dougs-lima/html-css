@@ -1,0 +1,35 @@
+/*/////// MAIN ///////*/
+main {
+    padding-top: 2rem;
+}
+main h2 {
+    text-align: center;
+    color: rgb(236, 182, 100);
+}
+#imagem__data-center {
+    margin: 1rem auto;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+.topic-section {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2rem 0;
+    padding: 1rem;
+}
+.topic-section h3 {
+    color:rgb(236, 182, 100);
+}
+.topic-section ul {
+    list-style-position: inside;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
+/*/////// RESPONSIVIDADE ///////*/
+@media (max-width: 768px) {
+    .topic-section {
+        padding: 0.4rem;
+    }
+}
