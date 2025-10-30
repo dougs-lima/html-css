@@ -14,7 +14,7 @@ main h2 {
 }
 .item { /* Fundo Itens */
     display: flex;
-    background-color:rgb(66, 50, 50);
+    background-color:rgb(30, 29, 37);
     border-radius: 5px;
     padding: 1rem;
     gap: 1rem;
@@ -43,6 +43,9 @@ main h2 {
     font-weight: bold;
     letter-spacing: -0.05em;
     line-height: 1.2;
+}
+.item-2 a {
+    color: #6462fa
 }
 
 /*/////// RESPONSIVIDADE ///////*/

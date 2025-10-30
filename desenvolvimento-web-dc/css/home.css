@@ -6,6 +6,9 @@ main h2 {
     text-align: center;
     color: rgb(236, 182, 100);
 }
+.container p a {
+    color: #6462fa;
+}
 #imagem__data-center {
     margin: 1rem auto;
     border-radius: 5px;
